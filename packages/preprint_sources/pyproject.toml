@@ -16,6 +16,7 @@ dependencies = [
     "httpx>=0.27.0",
     "feedparser>=6.0.11",
     "pylatexenc>=2.10",  # decode LaTeX author names from arXiv RSS to Unicode
+    "tzdata>=2024.1",  # zone data for ZoneInfo on systems without a tz database (Windows, Alpine)
 ]
 
 [project.optional-dependencies]
